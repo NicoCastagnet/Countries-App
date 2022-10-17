@@ -35,5 +35,6 @@ Additionally, it will be necessary to create a database from psql called `countr
 Then, start the project following the commands below:
 1. npm install
 2. npm start
+
 Both commands must be executed at `/api` & `/client`
 
