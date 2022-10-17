@@ -21,9 +21,19 @@ The main idea is to create an application in which different countries & its dat
 - Testing: Mocha & Chai.
 
 #### Starting:
-```javascript
-require 'redcarpet'
-markdown = Redcarpet.new("Hello World!")
-puts markdown.to_html
+In `api` create a file called: `.env` following the form below:
+
+```env
+DB_USER=user
+DB_PASSWORD=password
+DB_HOST=localhost
 ```
+
+Replace `user` & `password` with your own postgres credentials.
+Additionally, it will be necessary to create a database from psql called `countries`
+
+Then, start the project following the commands below:
+1. npm install
+2. npm start
+Both commands must be executed at `/api` & `/client`
 
