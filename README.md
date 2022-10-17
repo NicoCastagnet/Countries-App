@@ -20,4 +20,10 @@ The main idea is to create an application in which different countries & its dat
 - Front-End: React, Redux, HTML, Pure CSS & Sass.
 - Testing: Mocha & Chai.
 
+#### Starting:
+```javascript
+require 'redcarpet'
+markdown = Redcarpet.new("Hello World!")
+puts markdown.to_html
+```
 
