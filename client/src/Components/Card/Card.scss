@@ -1,0 +1,92 @@
+a {
+    text-decoration: none;
+}
+
+.card__container {
+    border-radius: 15px 15px 0px 0;
+    background: rgba(98, 97, 97, 0.25);
+    backdrop-filter: blur(4px);
+    -webkit-backdrop-filter: blur(4px);
+    border-bottom: 4px solid rgb(98, 97, 97);
+    height: 403px;
+    width: 300.5px;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+    flex-direction: column;
+    margin: 0px;
+    transition: all 0.4s ease;
+    cursor: pointer;
+
+    &:hover {
+        box-shadow: 0px 0px 23px 1px rgba(0,0,0,0.56);
+        -webkit-box-shadow: 0px 0px 23px 1px rgba(0,0,0,0.56);
+        -moz-box-shadow: 0px 0px 23px 1px rgba(0,0,0,0.56);
+    }
+
+    hr {
+        margin-top: 35px;
+        border: solid 1px rgba(98, 97, 97, 0.80);
+        margin: 35px 10px 0 10px;
+        border-radius: 5px;
+        background-color: rgba(98, 97, 97, 0.80);
+    }
+}
+
+.card__container-img {
+    border-radius: 10px 10px 0 0;
+    margin-top: -3px;
+    width: 18.80em;
+    height: 12em;
+    position: relative;
+}
+
+.card__container-title {
+    color: #37383a;
+    font-weight: bolder;
+    font-size: x-large;
+    text-align: center;
+    margin: 15px 10px 7px 10px;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+    text-transform: uppercase;
+    font-weight: 800;
+}
+
+.card__container-subtitle {
+    color: #37383a;
+    text-align: center;
+    font-size: 17px;
+}
+
+.card__container-btn {
+    margin: 1.5rem 1rem;
+    display: inline-block;
+    outline: 0;
+    border: 0;
+    cursor: pointer;
+    transition: box-shadow 0.15s ease,transform 0.15s ease;
+    will-change: box-shadow,transform;
+    background: #FCFCFD;
+    box-shadow: 0px 2px 4px rgb(45 35 66 / 40%), 0px 7px 13px -3px rgb(45 35 66 / 30%), inset 0px -3px 0px #d6d6e7;
+    height: 48px;
+    padding: 0 15px;
+    font-size: 18px;
+    border-radius: 6px;
+    color: #36395a;
+    transition: box-shadow 0.15s ease,transform 0.15s ease;
+    font-weight: bold;
+    text-transform: uppercase;
+
+    &:hover {
+        box-shadow: 0px 4px 8px rgb(45 35 66 / 40%), 0px 7px 13px -3px rgb(45 35 66 / 30%), inset 0px -3px 0px #d6d6e7;
+        transform: translateY(-2px);
+    }
+
+    &:active {
+        box-shadow: inset 0px 3px 7px #d6d6e7;
+        transform: translateY(2px);
+    }    
+}

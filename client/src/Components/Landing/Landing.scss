@@ -1,0 +1,79 @@
+.landing__title {
+    position: relative;
+    height: 100%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    top: 200px;
+
+    h1 {
+      color: white;
+      text-transform: uppercase;
+      letter-spacing: 3vw;
+      line-height: 1.2;
+      font-size: 3vw;
+    }
+
+    span {
+      display: block;
+      font-size: 10vw;
+      letter-spacing: -1.3vw;
+    }
+}
+
+.landing__btn {
+    position: relative;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    top: 200px;
+
+    button {
+      height: 45px;
+      width: 30vh;
+      padding: 10px;
+      cursor: pointer;
+      border: 0 solid transparent;
+      color: white;
+      text-transform: uppercase;
+      font-weight: bold;
+      border-radius: 5px;
+    }
+  }
+
+.blob button {
+    background: rgb(34, 47, 62);
+    box-shadow: 0 0 0 0 rgba(34, 47, 62, 1);
+    animation: pulse 2s infinite;
+  }
+  
+  @keyframes pulse {
+    0% {
+      transform: scale(0.95);
+      box-shadow: 0 0 0 0 rgba(34, 47, 62, 0.7);
+    }
+    
+    70% {
+      transform: scale(1);
+      box-shadow: 0 0 0 10px rgba(34, 47, 62, 0);
+    }
+    
+    100% {
+      transform: scale(0.95);
+      box-shadow: 0 0 0 0 rgba(255, 82, 82, 0);
+    }
+  }
+
+.landing__video video {
+    object-fit: cover;
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+
+
+

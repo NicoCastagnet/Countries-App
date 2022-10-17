@@ -1,0 +1,10 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Wotfard", Futura, -apple-system, sans-serif;
+}
+
+body {
+  background-color: bisque;
+}
