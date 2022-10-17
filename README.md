@@ -14,10 +14,10 @@ The main idea is to create an application in which different countries & its dat
 - Create activities for each country.
 
 #### This app was developed with:
-- ✔️ Main Lang: JavaScript.
-- ✔️ Back-End: nodeJS, ExpressJS & Sequelize.
-- ✔️ Data Base: PostgreSQL.
-- ✔️ Front-End: React, Redux, HTML, Pure CSS & Sass.
-- ✔️ Testing: Mocha & Chai.
+- Main Lang: JavaScript.
+- Back-End: nodeJS, ExpressJS & Sequelize.
+- Data Base: PostgreSQL.
+- Front-End: React, Redux, HTML, Pure CSS & Sass.
+- Testing: Mocha & Chai.
 
 
