@@ -64,8 +64,6 @@ export const NewActivity = () => {
   });
 
   useEffect(() => {
-    dispatch(getCountries());
-
     if (validation(input)) {
       setErrors(validation(input));
     }
