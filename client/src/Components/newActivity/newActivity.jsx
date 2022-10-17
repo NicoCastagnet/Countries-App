@@ -123,7 +123,8 @@ export const NewActivity = () => {
       !input.difficulty ||
       !input.duration ||
       !input.season ||
-      !input.countries
+      !input.countries ||
+      input.countries.length === 0
     ) {
       alert('Whoops! You must complete the form.');
     } else {
